@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Demo",
+    "version": "1.0",
+    "author": "lmorales",
+    "content_scripts":  [{
+        "matches": ["*://*/*"],
+        "js": ["content_scripts/main.js"]
+    }]
+}
